@@ -1,0 +1,170 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#body{
+    display:flex;
+}
+/*-----------------NAVBAR---------------------------*/
+
+#nav{
+    margin:0rem .5rem;
+    position:fixed;
+    width:100%;
+    background-color:#FFFFFF;  
+    border-bottom:8px solid #f1ebeb;
+    display:flex;
+    z-index:1;
+}
+
+#nav img{
+    width:6rem;
+    margin-left:5px;
+}
+
+#nav ul{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin:auto;
+   
+}
+
+#Book-button{
+    margin:2rem 2rem 0rem 0rem;
+    font-size:1.5rem;
+    font-weight: bolder;
+    text-decoration:none;
+}
+#Book-button a{
+    text-decoration:none;
+    color:#d02552;
+    border:1px #d02552 solid;
+    border-radius:5px;
+    padding:2px 5px;
+}
+
+#Book-button a:hover{
+    color:white;
+    background-color:#d02552;
+    border-radius:5px;
+    padding:4px 5px;
+}
+
+#nav ul li{
+    list-style:none;
+    margin:1rem;
+    font-size:1.5rem;
+    font-weight: bolder;
+}
+
+#nav ul li a{
+    text-decoration:none;
+    padding:2rem;
+    color:#000000;
+}
+
+#nav ul li a:hover{
+   color:cornflowerblue;
+}
+
+
+/*------------------HEADER--------------------------*/
+
+
+#header{
+    background-image:url(../img/4.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:25rem;
+}
+
+#header h1{
+    position:relative;
+    top:8rem;
+    left:3rem;
+    padding-left:6rem;
+    font-size:4rem;
+    width:40rem;
+    color:#d02552;
+    font-family: 'Yellowtail', cursive;
+    font-weight: lighter;
+    word-spacing:2rem;
+    letter-spacing: .3rem;
+    opacity:.7;
+    text-shadow: 5px 8px 5px grey;
+}
+
+
+/*--------------------BODY CONTENT------------------------*/
+
+
+#content{
+    display:flex;
+    flex-wrap:wrap;
+    position:relative;
+    align-content:center;
+    justify-content: center;
+    margin:2rem 5rem;
+    width:90%;
+}
+
+#content img{
+    width:60%;
+}
+#content h2{
+    font-size:2.5rem;
+    color:#5F4B8BFF;
+    margin:1% 5%;
+    text-shadow: 2px 2px 5px grey;
+    
+}
+#content>h2{
+    font-size:3rem;
+    margin:1% 5%;
+}
+#content img{
+    margin:1% 5%;
+    width:80%;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#content p{
+    margin:2% 5%;
+    width:90%;
+    font-family:cursive;
+    font-size:1.5rem;
+    word-spacing:5px;
+    line-height: 2.5rem;
+    background-color:#f7f5f5;
+    box-shadow:5px 5px 5px grey;
+    
+}
+#content>p{
+    background-color:#FFFFFF;
+    
+}
+
+
+/*--------------------footer-----------------*/
+#footer p{
+    display:flex;
+    align-content: center;
+    justify-content:center;
+    padding:5px 0px;
+}
+#footer{
+    color:#FFFFFF;
+    background-color:#000000;
+    padding:1%;
+    width:98%;
+}
+
+
+
+
+/*-----------media query: Tablets-------------*/
+
